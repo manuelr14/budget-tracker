@@ -16,7 +16,8 @@ app.use(express.json());
 app.use(express.static("public"));
 
 mongoose.connect("mongodb://manuelr14:18877MSca@ds239681.mlab.com:39681/heroku_4v4c92mx", {
-  useNewUrlParser: true,
+  useUnifiedTopology : true,  
+useNewUrlParser: true,
   useFindAndModify: false
 });
 
