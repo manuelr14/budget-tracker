@@ -1,4 +1,4 @@
-const config = {
+const Config = {
   entry: {
     index: "./public/index.js",
     // route: "./routes/api.js"
@@ -13,4 +13,4 @@ const config = {
   mode: "development"
 };
 
-module.exports = config;
+module.exports = Config;
